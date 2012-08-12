@@ -15,7 +15,6 @@ public class Lieblingseis  extends Applet {
 
     public void init () {
       setBackground(Color.pink);
-      
       add(l1);
       add(c1); 
       c1.addItemListener(new EisListener());

@@ -4,12 +4,9 @@ import java.awt.event.*;
 
 @SuppressWarnings("serial")
 public class EisAuswahl  extends Applet {
-
     List  lst = new List(3, true); // 3 rows visible
-                                   // muliple selections possible (true)
+                            // muliple selections possible (true)
     Label   l = new Label("Meine Eisauswahl für heute:");
-
-
     TextArea t = new TextArea(5, 20);
   
     @SuppressWarnings("deprecation")
