@@ -36,4 +36,5 @@ class EisListener implements ItemListener
     } 
 
 } // end of inner class
+
 } // end of applet 
