@@ -21,7 +21,8 @@ public class EisAuswahl  extends Applet {
       lst.addItem("Schokolade");
       lst.addItem("Pfirsisch");
       lst.addItem("Pistazie");
-      lst.addItem("Apfel");
+      lst.addItem("Äpfel");
+      lst.addItem("Birnen");
       add(l);
       add(lst); 
       lst.addItemListener(new EisListener());
