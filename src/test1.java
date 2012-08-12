@@ -22,6 +22,7 @@ public class test1 {
 		System.out.println("Hello Daniel Fay");
 		System.out.println("Wie gehts dir?");
 		System.out.println("Testing1");
+		System.out.println("Testing2");
 		// TODO Auto-generated method stube
 
 	}
