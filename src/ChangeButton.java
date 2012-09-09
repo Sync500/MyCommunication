@@ -16,12 +16,9 @@ public class ChangeButton  extends Applet {
       b.addActionListener(new ChangeButtonListener());
     }
 
-class ChangeButtonListener implements ActionListener
-{
-    public void actionPerformed(ActionEvent e)
-    {   ++count;
-        b.setLabel(buttonText + count);
-       
-    }
-}
+	class ChangeButtonListener implements ActionListener{
+	    public void actionPerformed(ActionEvent e){   ++count;
+	        b.setLabel(buttonText + count);  
+	    }
+	}
 }
